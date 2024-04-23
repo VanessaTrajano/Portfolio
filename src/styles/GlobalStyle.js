@@ -1,0 +1,1 @@
+// todos os estilos serao em styled-components e serao bem organizados (amem)
