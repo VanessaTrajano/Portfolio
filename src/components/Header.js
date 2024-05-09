@@ -1,3 +1,5 @@
+import NavListItem from "./header/NavListItem"
+
 function Header (){
     return(
         <div>
@@ -6,15 +8,12 @@ function Header (){
             <h1>Vanessa Trajano</h1>
             <nav>
                 <ul>
-                    <li>Sobre mim</li> {/* fazer links para todos os outros com href e ids */}
-                    <li>Hard Skills</li>
-                    <li>Soft Skills</li>
-                    <li>Projetos Destaques</li>
-                    <li>Contate-me</li>
+                     {/* fazer links para todos com href e ids */}
+                    <NavListItem texto = "Sobre mim"/>
+                    <NavListItem texto = "Habilidades"/>
+                    <NavListItem texto = "Projetos"/>
                 </ul>
             </nav>
-
-            
         </div>
     )
 }
